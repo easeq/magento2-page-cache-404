@@ -6,8 +6,8 @@
     <type name="Magento\Framework\App\FrontControllerInterface">
         <plugin
             sortOrder="10"
-            name="HS_PageCache404_Plugin_Magento_Framework_App_FrontControllerInterface"
-            type="HS\PageCache404\Plugin\Magento\Framework\App\FrontControllerInterface"
+            name="HS_PageCache404_Plugin_Magento_Framework_App_BuiltinPlugin"
+            type="HS\PageCache404\Plugin\Magento\Framework\App\BuiltinPlugin"
         />
     </type>
 </config>

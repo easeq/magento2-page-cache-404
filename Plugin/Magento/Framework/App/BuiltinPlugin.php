@@ -4,7 +4,7 @@ namespace HS\PageCache404\Plugin\Magento\Framework\App;
 
 use Magento\Framework\App\Response\Http as ResponseHttp;
 
-class FrontControllerInterface extends Magento\PageCache\Model\App\FrontController\BuiltinPlugin
+class BuiltinPlugin extends \Magento\PageCache\Model\App\FrontController\BuiltinPlugin
 {
     /**
      * @param \Magento\Framework\App\FrontControllerInterface $subject
