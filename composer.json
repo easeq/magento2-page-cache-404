@@ -1,0 +1,16 @@
+{
+    "name": "hs/module-page-cache-404",
+    "description": "Fix for Magento 2 homepage 404 page cache issue.",
+    "type": "magento2-module",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "HS\\PageCache404\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
